@@ -134,6 +134,8 @@ class _POSFastFoodPageState extends State<POSFastFoodPage> {
                             bottom: 2,
                             right: 5,
                             child: InkWell(
+                              splashColor: Colors.transparent,
+                              highlightColor: Colors.transparent,
                               onTap: () => openAlertBox(),
                               child: Container(
                                   child: Text(
@@ -313,7 +315,7 @@ class _POSFastFoodPageState extends State<POSFastFoodPage> {
                                                   //   color: Color(0xffED0E0E),
                                                   //   height: 12,
                                                   //   width: 17,
-                                                    
+
                                                   // ),
                                                   Icon(
                                                     Icons.delete_outline,

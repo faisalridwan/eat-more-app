@@ -3,12 +3,12 @@ import 'package:eatmore_app/pages/order/pospage/posFastFood_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class HomePage extends StatefulWidget {
+class PosOnlinePage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _PosOnlinePageState createState() => _PosOnlinePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _PosOnlinePageState extends State<PosOnlinePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -19,11 +19,14 @@ class _HomePageState extends State<HomePage> {
           backgroundColor: Colors.white,
           elevation: 0,
           automaticallyImplyLeading: false,
-          title: InkWell(
-            onTap: () {
-              Navigator.pop(context);
-            },
-            child: Container(
+          title: Container(
+            width: 70,
+            child: InkWell(
+              splashColor: Colors.transparent,
+              highlightColor: Colors.transparent,
+              onTap: () {
+                Navigator.pop(context);
+              },
               child: Row(
                 children: <Widget>[
                   SvgPicture.asset(
@@ -40,7 +43,8 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(
                         color: mainColor,
                         fontFamily: "Rubik",
-                        fontWeight: FontWeight.normal),
+                        fontWeight: FontWeight.normal,
+                        fontSize: 16),
                   ),
                 ],
               ),

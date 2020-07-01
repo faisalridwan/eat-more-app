@@ -1,4 +1,4 @@
-
+import 'package:eatmore_app/pages/profiles/profiles_page.dart';
 import 'package:eatmore_app/pages/report/report_page.dart';
 import 'package:eatmore_app/utils/tabbar_order.dart';
 import 'package:flutter/material.dart';
@@ -42,7 +42,7 @@ class _BottomNavCustomState extends State<BottomNavCustom> {
                 width: 24,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 8),
+                padding: EdgeInsets.only(left: 8),
                 child: isSelected
                     ? DefaultTextStyle.merge(
                         style: TextStyle(
@@ -65,9 +65,9 @@ class _BottomNavCustomState extends State<BottomNavCustom> {
       ),
     );
   }
-  final List<Widget> screens = [
-    TabBarOrder(), ReportPage(), Center(child: Text('PROFILE'))
-  ];
+
+  final List<Widget> screens = [TabBarOrder(), ReportPage(), ProfilesPage()];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,9 +93,8 @@ class _BottomNavCustomState extends State<BottomNavCustom> {
           }).toList(),
         ),
       ),
-        body:  screens[selectedIndex],
+      body: screens[selectedIndex],
     );
-
   }
 }
 

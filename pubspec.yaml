@@ -14,6 +14,9 @@ dependencies:
   flutter_icons: ^1.1.0
   scrollable_bottom_sheet: ^0.2.1
   charts_flutter: ^0.9.0
+  google_maps_flutter: ^0.5.28+1
+  flutter_switch: ^0.1.1
+  dotted_border: ^1.0.5
 
 dev_dependencies:
   flutter_test:

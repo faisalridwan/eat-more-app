@@ -132,7 +132,7 @@ class _NewOrderPageState extends State<NewOrderPage> {
           child: InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
-                  builder: (BuildContext context) => HomePage()));
+                  builder: (BuildContext context) => PosOnlinePage()));
             },
             child: Container(
               alignment: Alignment.center,
