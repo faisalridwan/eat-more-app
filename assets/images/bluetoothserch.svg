@@ -1,0 +1,15 @@
+<svg width="214" height="205" viewBox="0 0 214 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle opacity="0.15" cx="106.548" cy="101.916" r="82.4593" fill="#FDB526"/>
+<circle opacity="0.1" cx="107.011" cy="102.379" r="61.6128" fill="#FDB526"/>
+<ellipse cx="106.548" cy="102.379" rx="42.6194" ry="43.0826" fill="white"/>
+<path d="M145.667 102.379C145.667 124.276 128.118 141.962 106.548 141.962C84.9786 141.962 67.4287 124.276 67.4287 102.379C67.4287 80.4826 84.9786 62.7966 106.548 62.7966C128.118 62.7966 145.667 80.4826 145.667 102.379Z" stroke="#FDB526" stroke-opacity="0.5" stroke-width="7"/>
+<g opacity="0.7">
+<circle opacity="0.7" cx="207.78" cy="107.446" r="3.75128" fill="white" stroke="#FDB526" stroke-width="4"/>
+<path opacity="0.7" d="M135.498 5.65367C156.248 11.8146 174.452 24.5151 187.398 41.8628C200.343 59.2104 207.337 80.2765 207.337 101.922" stroke="#FDB526" stroke-width="3"/>
+<path opacity="0.7" d="M64.7479 193.516C48.4457 185.974 34.4649 174.197 24.2628 159.413C14.0607 144.629 8.01069 127.379 6.7434 109.461" stroke="#FDB526" stroke-width="3"/>
+<circle opacity="0.7" cx="5.44794" cy="104.419" r="3.44794" fill="white" stroke="#FDB526" stroke-width="4"/>
+</g>
+<g opacity="0.8">
+<path d="M96.2725 94.3845L117.751 110.374L107.012 118.368V86.3899L117.751 94.3845L96.2725 110.374" stroke="#FDB526" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
